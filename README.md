@@ -1,3 +1,11 @@
+Jamall Malik
+
+# LAB - Class 37
+## Project: Cookie Stand Admin 
+## Author: Jamall 
+- Worked with Ryan, Riki, and Alec
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
