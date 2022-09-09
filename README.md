@@ -1,10 +1,30 @@
 Jamall Malik
 
-# LAB - Class 37
+# LAB - Class 38
 ## Project: Cookie Stand Admin 
 ## Author: Jamall 
 - Worked with Ryan, Riki, and Alec
+## How to run application
 
+npx create-next-app my-project
+cd my-project
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+npm run dev
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
