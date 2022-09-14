@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CreateForm from '../components/CreateForm';
 import ReportTable from '../components/ReportTable';
-import SignIn from '../components/SignIn';
+import SignIn from '../components/Signin';
 import { useState } from 'react';
 import { useAuth } from '../contexts/auth';
 import userResource from '../hooks/userResource';
