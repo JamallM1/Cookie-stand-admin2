@@ -7,7 +7,7 @@ export default function Header({ logout }) {
             <div>
                 <button onClick={logout} className='bg-emerald-600 text-gray-200 px-2.5 py-1.5  mx-2 rounded-md'>Log Out</button>
                 <Link href='/overview'>
-                    <a className='bg-gray-200 px-2.5 py-0.5 rounded-sm'>Company Overview</a>
+                    <a className='bg-gray-200 px-2.5 py-0.5 rounded-sm'>Overview</a>
                 </Link>
             </div>
         </header>

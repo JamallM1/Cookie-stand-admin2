@@ -1,7 +1,7 @@
 export default function Footer(props) {
   return (
-      <footer className='p-4 text-lg font-semibold text-gray-700 bg-emerald-50'>
-          <p>{props.stands} Locations </p>
-      </footer>
+    <footer className='bg-emerald-400 text-xl text-gray-700 p-4 font-semibold text-center'>
+      <p>{props.stands} Global Stores </p>
+    </footer>
   );
 }

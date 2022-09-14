@@ -2,13 +2,13 @@ export default function ReportTable({ stands }) {
     const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
     if (stands.length === 0) {
-        return <h2 className="text-2xl">No Cookie Locations Available</h2>
+        return <h2 className="text-2xl">No Cookie Stands Here</h2>
     } else {
         return (
             <table className='w-5/6 bg-emerald-400 border-2 border-emerald-500'>
                 <thead>
                     <tr>
-                        <th className="border-2 border-emerald-500 text-left px-1">Location</th>
+                        <th className="border-2 border-emerald-500 text-left px-1">Locations</th>
                         {hours.map(hour => <th className="border-2 border-emerald-500 text-left px-1">{hour}</th>)}
                         <th className="border-2 border-emerald-500 text-left px-1">Totals</th>
                     </tr>
